@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         // este cambio va para github.
     }
 
-    // sendMessage
+    // función sendMessage
     public void sendMessage(View view) {
         Intent intent = new Intent(this, MessageActivity.class);
         EditText editText = findViewById(R.id.text_message);
